@@ -1,0 +1,43 @@
+html {
+  background-color: #000;
+  color: #fff;
+  font-family: var(--font-raleway);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+ul {
+  margin: 0;
+  font-family: var(--font-orbitron);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
