@@ -15,13 +15,23 @@ export default function Home() {
       </Head>
 
       <main className={raleway.className}>
-        <Image
-          className={styles.image}
-          src={gavel}
-          alt="court jester logo"
-          width={500}
-          height={500}
-        />
+        <div>
+          <span>
+            <a className={styles.redButton} href="https://theshamingofjay.com">
+              Patreon Members Login &rarr;
+            </a>
+            <Image
+              className={styles.image}
+              src={gavel}
+              alt="court jester logo"
+              width={500}
+              height={500}
+            />
+            <a className={styles.redButton} href="https://theshamingofjay.com">
+              Collab with Jay &rarr;
+            </a>
+          </span>
+        </div>
         <h1 className={orbitron.className}>THE SHAMING OF JAY</h1>
         <Socials />
         <p className={caveat.className}>
