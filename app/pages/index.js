@@ -1,7 +1,12 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
-import gavel from "../public/images/courtjester.png";
+import gavel from "../public/images/courtjester.svg";
+import YoutubeVideo from "../components/youtube";
+import Socials from "../components/socials";
+import { raleway, caveat, orbitron } from "../fonts";
+import Link from "next/link";
+import "./tips/index";
 
 export default function Home() {
   return (
@@ -11,51 +16,52 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className={styles.title}>THE SHAMING OF JAY</h1>
+      <main className={raleway.className}>
         <Image
           className={styles.image}
           src={gavel}
-          alt="Jay"
+          alt="court jester logo"
           width={500}
           height={500}
         />
-        <p className={styles.description}>
+        <h1 className={orbitron.className}>THE SHAMING OF JAY</h1>
+        <Socials />
+        <p className={caveat.className}>
           Just another asshole. I watch live true crime trials and sprinkle my
           rants to my Bo's on the daily.
         </p>
-
+        <YoutubeVideo />
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>JBN Merch &rarr;</h3>
+          <a
+            href="https://theshamingofjay.myshopify.com/"
+            className={styles.card}
+          >
+            <h3 className={orbitron.className}>JBN Merch &rarr;</h3>
             <p>
               Check out our current collection of awesome merch! We have shirts,
               mugs, hats, stickers, and much much more!
             </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Stream Schedule &rarr;</h3>
-            <p>Find out when we'll be live on YouTube and on Patreon</p>
-          </a>
-
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://www.youtube.com/@Theshamingofjay/streams"
             className={styles.card}
           >
-            <h3>Tip Your Streamer &rarr;</h3>
+            <h3 className={orbitron.className}>Stream Schedule &rarr;</h3>
+            <p>Find out when we'll be live on YouTube and on Patreon</p>
+          </a>
+          <div className={styles.card}>
+            <h3 className={orbitron.className}>
+              <Link href="./tips/index.js">Tip Your Streamer &rarr;</Link>
+            </h3>
             <p>
               Keep JayBoNation thriving by supporting your favorite American
               Court DJ! Most major payment apps are accepted. Thank you for your
               love and support!
             </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Check our socials &rarr;</h3>
+          </div>
+          <a href="https://linktr.ee/theshamingofjay" className={styles.card}>
+            <h3 className={orbitron.className}>Check our socials &rarr;</h3>
             <p>
               Find Jay anywhere on the web! @theshamingofjay on all platforms.
               Go follow if you aren't already! We are having contests regularly.
@@ -66,7 +72,9 @@ export default function Home() {
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Honourable Members of JayBoNation &rarr;</h3>
+            <h3 className={orbitron.className}>
+              Honourable Members of JayBoNation &rarr;
+            </h3>
             <p>
               We've made a lot of amazing friends on this journey. Here is more
               information on our favorite guests, our Partners In Crime, and
@@ -78,7 +86,7 @@ export default function Home() {
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Current Contests &rarr;</h3>
+            <h3 className={orbitron.className}>Current Contests &rarr;</h3>
             <p>
               We're always coming up with great ways to give away our awesome
               merch, so check here regularly to find out what's up for grabs and

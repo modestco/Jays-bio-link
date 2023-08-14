@@ -18,10 +18,9 @@
 }
 
 .title {
-  margin: 0 0 1rem;
+  margin: 1rem;
   line-height: 1.15;
   font-size: 3.6rem;
-  font-family: var(--font-orbitron);
   color: #ff3131;
 }
 
@@ -36,7 +35,7 @@
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .grid {
@@ -64,30 +63,34 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #ff3131;
+  color: #000;
+  background-color: white;
   border-color: #ff3131;
 }
 
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-  font-family: "Orbitron", sans-serif;
+  text-transform: uppercase;
+  color: #ff3131;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-  font-family: var(--font-orbitron);
 }
 
 .logo {
-  height: 1em;
+  height: 2em;
 }
-
+.socials {
+  margin: 1rem;
+}
 .image {
-  padding: -40px;
   border-radius: 10px;
+  max-width: 300px;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 600px) {
