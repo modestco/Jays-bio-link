@@ -26,17 +26,16 @@
     "Court",
     "Jester"
   ],
-  "author": "Jen Luchka",
-  "license": "ISC",
+  "author": "Jen from Modest Design Co.",
+  "license": "BSD-1-Clause",
   "bugs": {
     "url": "https://github.com/modestco/Jays-bio-link/issues"
   },
   "homepage": "https://github.com/modestco/Jays-bio-link/tree/be3ef926cda407cc5326722b552f512f3727c7a5#readme",
   "private": false,
-  
   "dependencies": {
     "eslint": "^8.47.0",
-    "next": "^13.4.13",
+    "next": "^13.4.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-social-icons": "^5.15.0",

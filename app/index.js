@@ -2,10 +2,10 @@ import Head from "next/head";
 
 import Image from "next/image";
 import gavel from "../public/images/courtjester.svg";
-import Socials from "../components/socials";
-import YoutubeVideo from "../components/youtube";
+import Socials from "./components/socials";
+import YoutubeVideo from "./components/youtube";
 
-import { raleway, caveat, orbitron } from "../fonts";
+import { raleway, caveat, orbitron } from "./fonts";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
