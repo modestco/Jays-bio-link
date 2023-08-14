@@ -1,0 +1,42 @@
+{
+  "name": "jays-bio-link",
+  "version": "1.0.0",
+  "description": "live YT streamer - Court Jester - The Shaming Of Jay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modestco/Jays-bio-link.git#be3ef926cda407cc5326722b552f512f3727c7a5"
+  },
+  "keywords": [
+    "ShamingOfJay",
+    "JayBoNation",
+    "Jay",
+    "Bo",
+    "Hey",
+    "Bo",
+    "Shaming",
+    "Jay",
+    "Youtube",
+    "Court",
+    "Jester"
+  ],
+  "author": "Jen Luchka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modestco/Jays-bio-link/issues"
+  },
+  "homepage": "https://github.com/modestco/Jays-bio-link/tree/be3ef926cda407cc5326722b552f512f3727c7a5#readme",
+  "private": false,
+  
+  "dependencies": {
+    "eslint": "^8.47.0",
+    "next": "^13.4.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-social-icons": "^5.15.0",
+    "react-youtube": "^10.1.0"
+  }
+}
