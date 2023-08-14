@@ -4,7 +4,10 @@
   "description": "live YT streamer - Court Jester - The Shaming Of Jay",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "next test",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
