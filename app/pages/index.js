@@ -5,8 +5,6 @@ import gavel from "../public/images/courtjester.svg";
 import YoutubeVideo from "./components/youtube";
 import Socials from "./components/socials";
 import { raleway, caveat, orbitron } from "../fonts";
-import Link from "next/link";
-import "./tips/index";
 
 export default function Home() {
   return (
@@ -52,7 +50,9 @@ export default function Home() {
           </a>
           <div className={styles.card}>
             <h3 className={orbitron.className}>
-              <Link href="./tips/index.js">Tip Your Streamer &rarr;</Link>
+              <a href="https://www.venmo.com/theshamingofjay">
+                Tip Your Streamer &rarr;
+              </a>
             </h3>
             <p>
               Keep JayBoNation thriving by supporting your favorite American
